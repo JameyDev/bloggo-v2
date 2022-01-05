@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 6px;
+    background-color: rgba(103, 189, 163, 0.945);
+    border: 2px solid red;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.txt-lg {
+    font-size: 3rem;
+}
+
+.txt-md {
+    font-size: 1.75rem;
+}
